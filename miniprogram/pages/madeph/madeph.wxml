@@ -1,0 +1,15 @@
+<!-- madeph.wxml -->
+<!-- 合成生产头像页 -->
+<view class="container flex">
+    <view style='width:100%;height:100%;position:relative'>
+        <view class="img">
+            <image src="{{imgSrc}}" style="width:300rpx;height:300rpx" />
+        </view>
+        <view class="item flex" bindtap="upload" style='position:absolute;bottom:260rpx;background-color:#3cc6f7;color:white; '>
+            上传图片
+        </view>
+        <view class='item flex' bindtap='jump' style='color:#3cc6f7;position:absolute;bottom:100rpx;'>
+            下一步
+        </view>
+    </view>
+</view>

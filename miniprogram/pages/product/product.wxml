@@ -1,0 +1,28 @@
+<view class='container {{theme}}'>
+  <view class="img" style="border: 8rpx solid {{color}};">
+    <canvas canvas-id="myCanvas" id='myCanvas' style="width:300rpx;height:300rpx;position:absolute"></canvas>
+    <image src="{{cutImage}}" style="width:{{width}}rpx;height:{{height}}rpx;position:absolute;z-index:99;left:{{left}}rpx;top:{{top}}rpx" />
+    <image src="{{avtImage}}" style="width:300rpx;height:300rpx;position:absolute;z-index:99" />
+  </view>
+  <view class="tab" style="border-bottom:6rpx solid {{color}}">
+    <view class="{{leftClass}}" bindtap="changeToGuo">
+      <view class='text' class="text">国庆主题</view>
+    </view>
+    <view class="{{rightClass}}">
+      <view class='text' class="text" bindtap="changeToZhong">中秋主题</view>
+    </view>
+  </view>
+  <view class="imageList">
+    <view class="imageBlock" bindtap='choosePic' wx:for="{{imageList}}" wx:for-item="picSrc" wx:for-index="idx" data-index='{{idx}}'>
+      <view class='imageWrapper'>
+        <image class="image" src="{{picSrc}}"></image>
+      </view>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class="back" style="color:white;background-color:{{color}}" bindtap='back'>上一步</view>
+    <view class="save" style="border:6rpx solid {{color}};color:{{color}}" bindtap='save'>
+      保存头像
+    </view>
+  </view>
+</view>

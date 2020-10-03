@@ -1,0 +1,9 @@
+<!-- index.wxml -->
+<!-- 制作头像首页 -->
+<view class="container">
+    <!-- 底部的跳转选择头像框button -->
+    <view class="wrapper">
+        <image src='../../images/start.png' class="start" bindtap='toselect'></image>
+    </view>
+</view>
+<!-- author:研小招 -->

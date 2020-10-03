@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+
+    "pages/madeph/madeph",
+    "pages/cropper/cropper",
+    "pages/product/product"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "研小招专属头像制作",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 10000
+    },
+  "sitemapLocation": "sitemap.json"
+}
