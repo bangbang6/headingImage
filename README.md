@@ -106,7 +106,7 @@ that.ctx.drawImage(pic, 0, 0, this.canvasWidth, this.canvasHeight)
 
 ​ 由于微信审核对图片有较高的审核要求，详情见下方链接
 
-[微信官方api ]: https://developers.weixin.qq.com/miniprogram/dev/framework/msg_security.html
+https://developers.weixin.qq.com/miniprogram/dev/framework/msg_security.html
 
 ##### 功能实现
 
